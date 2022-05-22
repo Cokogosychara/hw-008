@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    --img-size: 100px;  
+    --grey-color: #cccccc;
+    --dark-color: #10b1eb;
+    --white-color: #fefefe; 
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-wrap{
+    display:inline-block;/* обертка блочно строчная, для того что бы устанавить ее по центру вюпорта  */
+    min-width: calc(var(--img-size)*2);
+    max-width: calc(var(--img-size)*3);
+    width: 100%;    /* будет отталкиваться от максимального размера если сужать то потом от минимально */
+    border: 1px solid var(--dark-color);
+    margin: 20px;
+   
+
+}
+
+.card-wrap__header{
+    height: calc(var(--img-size)*1.2);
+    background-color: var(--dark-color);
+   
+
+}
+
+.contente-container{
+    padding: 0 calc( var(--img-size)*0.2);
+
+}
+
+
+.contente-container__photo-profile{
+    width: var(--img-size);
+    height: var(--img-size);    
+    border-radius: 50%;
+    margin-top: calc(var(--img-size)*-0.5);
+    border: 1px solid var(--dark-color);
+    padding: 5px;
+    background-color: var(--white-color);
+    object-fit: cover;
+    
+}
+.contente-container__profile-adress{
+    width: 150px;
+    padding: 2px;
+    margin: 7px auto ;
+}
+.profile-adress__icon-map{
+    width: 24px;
+    height: 26px;
+}
+.contente-container__user-name{
+    margin: 10px 0;
+    font-size: 20px;
+    width: 172px;
+}
+
+.contente-container__text-new-jersi{
+    font-size: 0.9em;
+    width:73px;
+
+}
+.contente-container__text-usa{
+    font-size: 0.9em;
+    width: 37px;
+}
+
+
+.contente-container__btn{
+    padding: 15px 0;
+    border-top: 1px solid var(--grey-color);
+    border-bottom: 1px solid var(--grey-color);
+
+}
+
+.follow{
+    width: 57px ;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    color: var(--white-color);
+    background-color: rgb(48, 171, 48);
+    font-size: 0.8em;
+    
+
+}
+
+.send-message{
+    width: 115px;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    color: var(--white-color);
+    background-color: var(--dark-color);
+    font-size: 0.8em;
+   
+
+}
+.contente-container__lorem{
+    margin: 15px 0;
+    font-size: 0.8em;
+}
+
+.footer__container{
+    background-color: var(--dark-color);
+    padding: 10px;
+}
+
+.footer__list{
+    display: inline-block;
+}
+
+.sheet-settings{
+   display: block;
+   width: 24px;
+   height: 24px;
+}
+
+.icon-fb{
+    background-image: url(../icon/facebook.png); 
+}
+
+.icon-google{
+    background-image: url(../icon/google-plus.png);
+}
+
+.icon-twitter{
+    background-image: url(../icon/twitter.png);
+}
+
+.invisible-text{
+    display: inline-block;
+    white-space: nowrap;    
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
