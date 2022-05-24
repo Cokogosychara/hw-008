@@ -30,13 +30,13 @@ body{
 
 }
 
-.contente-container{
+.section-central-card{
     padding: 0 calc( var(--img-size)*0.2);
 
 }
 
 
-.contente-container__photo-profile{
+.section-central-card__photo-profile{
     width: var(--img-size);
     height: var(--img-size);    
     border-radius: 50%;
@@ -47,7 +47,7 @@ body{
     object-fit: cover;
     
 }
-.contente-container__profile-adress{
+.section-central-card__profile-adress{
     width: 150px;
     padding: 2px;
     margin: 7px auto ;
@@ -56,24 +56,24 @@ body{
     width: 24px;
     height: 26px;
 }
-.contente-container__user-name{
+.section-central-card__user-name{
     margin: 10px 0;
     font-size: 20px;
     width: 172px;
 }
 
-.contente-container__text-new-jersi{
+.section-central-card__text-new-jersi{
     font-size: 0.9em;
     width:73px;
 
 }
-.contente-container__text-usa{
+.section-central-card__text-usa{
     font-size: 0.9em;
     width: 37px;
 }
 
 
-.contente-container__btn{
+.section-central-card__btn{
     padding: 15px 0;
     border-top: 1px solid var(--grey-color);
     border-bottom: 1px solid var(--grey-color);
@@ -103,7 +103,7 @@ body{
    
 
 }
-.contente-container__lorem{
+.section-central-card__lorem{
     margin: 15px 0;
     font-size: 0.8em;
 }
